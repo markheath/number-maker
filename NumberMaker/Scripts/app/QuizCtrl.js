@@ -8,6 +8,7 @@ function QuizController($scope) {
     $scope.answer = "";
     $scope.message = "";
 
+    // this is a comment
     var random = function (minX, max) {
         var range = max + 1 - minX;
         return minX + Math.floor(Math.random() * range);
